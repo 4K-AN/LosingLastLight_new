@@ -7,11 +7,11 @@ public class AttackPoint: MonoBehaviour
     private int currentHealth;
     public int attackDamage = 20;
     public float attackRange = 0.5f;
-    public float attackCooldown = 1f; // Delay serangan
+    public float attackCooldown = 1f; 
     private bool canAttack = true;
 
-    public Transform attackPoint; // Posisi serangan
-    public LayerMask enemyLayer; // Layer musuh yang bisa diserang
+    public Transform attackPoint; 
+    public LayerMask enemyLayer; 
 
     public AudioSource audioSource;
     public AudioClip attackSound;
@@ -21,12 +21,12 @@ public class AttackPoint: MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        animator = GetComponent<Animator>(); // Ambil komponen Animator
+        animator = GetComponent<Animator>(); 
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && canAttack) // Klik kiri mouse
+        if (Input.GetButtonDown("Fire1") && canAttack) 
         {
             StartCoroutine(Attack());
         }
@@ -34,16 +34,16 @@ public class AttackPoint: MonoBehaviour
 
     IEnumerator Attack()
     {
-        canAttack = false; // Tidak bisa menyerang selama cooldown
-        animator.SetTrigger("Attack"); // Memainkan animasi serangan
+        canAttack = false; 
+        animator.SetTrigger("Attack");
 
-        // 🔊 Mainkan suara serangan
+       
         if (audioSource != null && attackSound != null)
         {
             audioSource.PlayOneShot(attackSound);
         }
 
-        // Deteksi musuh dalam jangkauan
+  
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
 
         foreach (Collider2D enemy in hitEnemies)
@@ -54,8 +54,8 @@ public class AttackPoint: MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(attackCooldown); // Tunggu cooldown
-        canAttack = true; // Bisa menyerang lagi
+        yield return new WaitForSeconds(attackCooldown);
+        canAttack = true; 
     }
 
     void OnDrawGizmosSelected()

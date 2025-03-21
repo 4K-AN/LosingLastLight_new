@@ -7,21 +7,21 @@ public class playerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movementInput;
     public TextMeshProUGUI textString;
-    public Character playerCharacter; // Referensi ke Character (Player)
-    private Character enemyTarget; // Referensi ke musuh yang bisa diserang
+    public Character playerCharacter; 
+    private Character enemyTarget; 
 
     private SpriteRenderer spriteRender;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // Ambil Rigidbody2D dari player
+        rb = GetComponent<Rigidbody2D>(); 
         spriteRender = rb.GetComponent<SpriteRenderer>();
         
     }
 
     void Update()
     {
-        // Ambil input gerakan dari keyboard
+       
         movementInput.x = Input.GetAxisRaw("Horizontal");
         if(movementInput.x > 0)
         {
@@ -36,7 +36,7 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Terapkan velocity ke Rigidbody2D
+       
         rb.linearVelocity = movementInput.normalized * speed;
     }
 

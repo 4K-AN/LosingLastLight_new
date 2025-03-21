@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     private Vector2 moveInput;
     private bool facingRight = true;
 
-    public bool isUsingSword = false; // Ubah ke public agar bisa diakses oleh script lain
+    public bool isUsingSword = false; 
 
     void Start()
     {
@@ -19,19 +19,18 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        // Input gerakan
+      
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
 
-        // Cek apakah sedang bergerak
+       
         bool isMoving = moveInput != Vector2.zero;
         anim.SetBool("isMoving", isMoving);
         anim.SetBool("isUsingSword", isUsingSword);
 
-        // Jika menabrak pedang (Collider akan diatur di script lain)
-        // Tidak perlu tombol "E" untuk mengganti senjata
+        
 
-        // Cek arah gerakan dan balikkan karakter
+        
         if (moveInput.x > 0 && !facingRight)
         {
             Flip();
@@ -44,7 +43,7 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Gerakkan karakter dengan Rigidbody2D
+       
         rb.linearVelocity = moveInput.normalized * moveSpeed;
     }
 
@@ -52,11 +51,11 @@ public class Movement : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 scale = transform.localScale;
-        scale.x *= -1; // Balik arah
+        scale.x *= -1; 
         transform.localScale = scale;
     }
 
-    public void PickUpSword() // Fungsi ini akan dipanggil saat menabrak pedang
+    public void PickUpSword() 
     {
         isUsingSword = true;
     }

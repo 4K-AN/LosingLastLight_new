@@ -1,16 +1,15 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ItemPickup : MonoBehaviour
 {
-    public Sprite itemSprite; // Gambar item yang akan ditampilkan di layar
+    public Sprite itemSprite;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Jika Player menyentuh item
+        if (other.CompareTag("Player"))
         {
-            UIManager.instance.ShowItem(itemSprite); // Tampilkan item di UI
-            Destroy(gameObject); // Hancurkan item setelah diambil
+            UIManager.instance.AddItem(itemSprite); // Tambahkan ke inventory
+            Destroy(gameObject);
         }
     }
 }

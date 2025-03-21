@@ -46,11 +46,14 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        Debug.Log(name + " menerima damage: " + amount);
+
         currentHealth -= amount;
         UpdateHealthBar();
 
         if (currentHealth <= 0)
         {
+            Debug.Log(name + " mati!");
             Destroy(gameObject);
         }
         else
@@ -59,6 +62,7 @@ public class Enemy : MonoBehaviour
             Knockback();
         }
     }
+
 
     IEnumerator HitEffect()
     {

@@ -9,18 +9,24 @@ public class Player : MonoBehaviour
     private int currentHealth;
     public int damage = 15;
     public float moveSpeed = 5f;
+    private bool isDead = false;
 
     [Header("UI & Components")]
     public Image healthBar;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
 
+   
+
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip hurtSound;
     public AudioClip attackSound;
+    private Collider2D enemyTarget;
 
-    private Collider2D enemyTarget;  // Menyimpan musuh yang bisa diserang
+    [Header("Game Over")]
+    public GameObject GameOverScreen;
+
 
     void Start()
     {
@@ -28,13 +34,17 @@ public class Player : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         UpdateHealthBar();
+
+        if (GameOverScreen != null)
+        {
+            GameOverScreen.SetActive(false); // ✅ Sembunyikan saat game mulai
+        }
     }
 
     void Update()
     {
         Move();
 
-        // 🗡️ Menyerang musuh saat menekan tombol "Fire1" (Default: Mouse Kiri / Ctrl)
         if (Input.GetButtonDown("Fire1"))
         {
             Attack();
@@ -52,24 +62,21 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        Debug.Log("Player terkena hit! Mengurangi HP sebesar: " + amount);
+        if (isDead) return; // Jika sudah mati, abaikan damage
+
         currentHealth -= amount;
         UpdateHealthBar();
 
-        if (audioSource != null && hurtSound != null)
-        {
-            audioSource.PlayOneShot(hurtSound);
-        }
-
         if (currentHealth <= 0)
         {
-            Debug.Log("Player mati!");
+            Die();
         }
         else
         {
             StartCoroutine(HitEffect());
         }
     }
+
 
     IEnumerator HitEffect()
     {
@@ -86,17 +93,22 @@ public class Player : MonoBehaviour
         }
     }
 
-    // 🗡️ **Menyerang musuh**
     void Attack()
     {
         if (enemyTarget != null)
         {
-            Debug.Log("Menyerang musuh!");
+            Debug.Log("Menyerang musuh: " + enemyTarget.name);
 
-            // Pastikan musuh punya script Enemy.cs dengan fungsi TakeDamage()
-            enemyTarget.GetComponent<Enemy>().TakeDamage(damage);
+            Enemy enemy = enemyTarget.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
+            else
+            {
+                Debug.LogError("Musuh tidak memiliki script Enemy.cs!");
+            }
 
-            // 🔊 Mainkan suara serangan jika ada
             if (audioSource != null && attackSound != null)
             {
                 audioSource.PlayOneShot(attackSound);
@@ -104,16 +116,16 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Debug.Log("Tidak ada musuh dalam jangkauan!");
+            Debug.LogWarning("⚠ Tidak ada musuh dalam jangkauan serangan!");
         }
     }
 
-    // 🎯 **Mendeteksi musuh dalam jangkauan serangan**
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
-            enemyTarget = collision;  // Simpan referensi musuh
+            Debug.Log("Musuh masuk jangkauan: " + collision.name);
+            enemyTarget = collision;
         }
     }
 
@@ -121,7 +133,36 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            enemyTarget = null;  // Hapus referensi musuh saat keluar jangkauan
+            Debug.Log("Musuh keluar jangkauan: " + collision.name);
+            enemyTarget = null;
         }
     }
+
+    void Die()
+    {
+        if (isDead) return; // Hindari pemanggilan ulang
+        isDead = true;
+
+        Debug.Log("Player mati! Menampilkan GameOverScreen...");
+        if (GameOverScreen != null)
+        {
+            GameOverScreen.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("⚠ GameOverScreen masih NULL!");
+        }
+
+        Time.timeScale = 0.1f; // Pastikan UI bisa diklik
+        this.enabled = false; // Matikan script Player
+
+        // Matikan Rigidbody agar tidak bergerak lagi
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.isKinematic = true;
+        }
+    }
+
 }
