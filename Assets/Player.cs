@@ -6,10 +6,15 @@ public class Player : MonoBehaviour
 {
     [Header("Player Stats")]
     public int maxHealth = 100;
-    private int currentHealth;
     public int damage = 15;
     public float moveSpeed = 5f;
+    private int currentHealth; // ✅ Diperbaiki
     private bool isDead = false;
+
+    // ✅ Getter sebagai properti opsional
+    public int CurrentHealth => currentHealth;
+    public int Health => currentHealth; // ✅ Tambahkan ini
+
 
     [Header("UI & Components")]
     public Image healthBar;

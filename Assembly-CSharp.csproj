@@ -115,9 +115,11 @@
     <Compile Include="Assets\OnTorch.cs" />
     <Compile Include="Assets\NPCDialog.cs" />
     <Compile Include="Assets\enemyBehaviour.cs" />
+    <Compile Include="Assets\DestroyAndRespawn.cs" />
     <Compile Include="Assets\GameManager_trans.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\PlayerDeathHandler.cs" />
     <Compile Include="Assets\LevelMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
