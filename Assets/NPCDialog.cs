@@ -6,20 +6,20 @@ public class NPCDialog : MonoBehaviour
     [System.Serializable]
     public class DialogLine
     {
-        public string speakerName; // Nama karakter
+        public string speakerName; 
         [TextArea(3, 10)]
-        public string text; // Isi dialog
+        public string text; 
     }
 
-    public static NPCDialog activeDialog; // Dialog NPC yang sedang aktif
+    public static NPCDialog activeDialog; 
 
-    public GameObject dialogUI; // UI Panel untuk dialog
-    public Text nameText; // UI untuk nama karakter
-    public Text dialogText; // UI untuk teks dialog
-    public Button nextButton; // Tombol "Lanjut"
-    public GameObject door; // Pintu yang bisa dihancurkan
-    private bool doorDestroyed = false; // Flag apakah pintu sudah dihancurkan
-    public DialogLine[] dialogLines; // Array dialog dengan karakter berbeda
+    public GameObject dialogUI;
+    public Text nameText; 
+    public Text dialogText; 
+    public Button nextButton; 
+    public GameObject door; 
+    private bool doorDestroyed = false; 
+    public DialogLine[] dialogLines; 
     private int currentLine = 0;
     private bool isDialogActive = false;
 
@@ -30,7 +30,7 @@ public class NPCDialog : MonoBehaviour
             nextButton.onClick.AddListener(NextDialog);
         }
 
-        // Pastikan UI tersembunyi saat awal
+        
         if (dialogUI != null)
         {
             dialogUI.SetActive(false);
@@ -41,7 +41,7 @@ public class NPCDialog : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !isDialogActive)
         {
-            // Hanya tampilkan dialog jika tidak ada dialog lain yang sedang aktif
+           
             if (activeDialog == null || !activeDialog.isDialogActive)
             {
                 ShowDialog();
@@ -53,17 +53,17 @@ public class NPCDialog : MonoBehaviour
     {
         if (collision.CompareTag("Player") && isDialogActive && activeDialog == this)
         {
-            // Opsional: Tutup dialog saat player meninggalkan area
-            // CloseDialog();
+            
+            
         }
     }
 
     void DestroyDoor()
     {
-        if (!doorDestroyed && door != null) // Cek apakah pintu masih ada
+        if (!doorDestroyed && door != null) 
         {
             Destroy(door);
-            doorDestroyed = true; // Tandai pintu sudah dihancurkan
+            doorDestroyed = true; 
             Debug.Log("🚪 Pintu telah dihancurkan!");
         }
     }

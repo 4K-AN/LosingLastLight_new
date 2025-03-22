@@ -8,12 +8,12 @@ public class Player : MonoBehaviour
     public int maxHealth = 100;
     public int damage = 15;
     public float moveSpeed = 5f;
-    private int currentHealth; // ✅ Diperbaiki
+    private int currentHealth; 
     private bool isDead = false;
 
-    // ✅ Getter sebagai properti opsional
+   
     public int CurrentHealth => currentHealth;
-    public int Health => currentHealth; // ✅ Tambahkan ini
+    public int Health => currentHealth; 
 
 
     [Header("UI & Components")]
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
 
         if (GameOverScreen != null)
         {
-            GameOverScreen.SetActive(false); // ✅ Sembunyikan saat game mulai
+            GameOverScreen.SetActive(false); 
         }
     }
 
@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        if (isDead) return; // Jika sudah mati, abaikan damage
+        if (isDead) return; 
 
         currentHealth -= amount;
         UpdateHealthBar();
@@ -145,7 +145,7 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return; // Hindari pemanggilan ulang
+        if (isDead) return; 
         isDead = true;
 
         Debug.Log("Player mati! Menampilkan GameOverScreen...");
@@ -158,10 +158,10 @@ public class Player : MonoBehaviour
             Debug.LogError("⚠ GameOverScreen masih NULL!");
         }
 
-        Time.timeScale = 0.1f; // Pastikan UI bisa diklik
-        this.enabled = false; // Matikan script Player
+        Time.timeScale = 0.1f; 
+        this.enabled = false; 
 
-        // Matikan Rigidbody agar tidak bergerak lagi
+        
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {

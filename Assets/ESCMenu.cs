@@ -9,7 +9,7 @@ public class ESCMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("ESC ditekan!"); // Cek apakah ESC terdeteksi
+            Debug.Log("ESC ditekan!"); 
             ToggleMenu();
         }
     }
@@ -35,3 +35,4 @@ public class ESCMenu : MonoBehaviour
     }
 
 }
+

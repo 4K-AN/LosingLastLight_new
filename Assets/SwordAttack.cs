@@ -22,7 +22,7 @@ public class SwordAttack : MonoBehaviour
         {
             if (movementScript.isUsingSword)
             {
-                if (Input.GetMouseButtonDown(0)) // Klik kiri
+                if (Input.GetMouseButtonDown(0)) 
                 {
                     Debug.Log("Menyerang dengan pedang!");
                     anim.SetTrigger("attackSword");

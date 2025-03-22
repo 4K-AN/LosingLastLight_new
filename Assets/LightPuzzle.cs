@@ -3,28 +3,28 @@ using System.Collections;
 
 public class PressurePlate : MonoBehaviour
 {
-    [SerializeField] private GameObject door; // Pintu yang akan terbuka
-    [SerializeField] private float openDelay = 1.3f; // Waktu tunda sebelum pintu terbuka
-    [SerializeField] private float closeDelay = 10f; // Waktu sebelum pintu menutup kembali (10 detik)
+    [SerializeField] private GameObject door; 
+    [SerializeField] private float openDelay = 1.3f; 
+    [SerializeField] private float closeDelay = 10f; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) // Cek apakah yang menginjak adalah Player
+        if (collision.CompareTag("Player")) 
         {
-            StartCoroutine(OpenDoorWithDelay()); // Mulai proses pembukaan pintu setelah delay
+            StartCoroutine(OpenDoorWithDelay()); 
         }
     }
 
     private IEnumerator OpenDoorWithDelay()
     {
-        yield return new WaitForSeconds(openDelay); // Tunggu 1,3 detik sebelum pintu terbuka
-        door.SetActive(false); // Buka pintu (menghilangkan objek)
-        StartCoroutine(CloseDoorAfterDelay()); // Mulai countdown untuk menutup pintu
+        yield return new WaitForSeconds(openDelay); 
+        door.SetActive(false); 
+        StartCoroutine(CloseDoorAfterDelay()); 
     }
 
     private IEnumerator CloseDoorAfterDelay()
     {
-        yield return new WaitForSeconds(closeDelay); // Tunggu 10 detik
-        door.SetActive(true); // Tutup pintu kembali
+        yield return new WaitForSeconds(closeDelay); 
+        door.SetActive(true); 
     }
 }

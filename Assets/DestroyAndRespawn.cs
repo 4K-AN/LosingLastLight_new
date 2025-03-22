@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DestroyAndRespawn : MonoBehaviour
 {
-    public float respawnTime = 5f; // Waktu sebelum objek muncul kembali
+    public float respawnTime = 5f; 
 
     void Start()
     {
@@ -11,12 +11,12 @@ public class DestroyAndRespawn : MonoBehaviour
 
     void DestroyObject()
     {
-        gameObject.SetActive(false); // Nonaktifkan objek
-        Invoke(nameof(RespawnObject), respawnTime); // Panggil RespawnObject() setelah beberapa detik
+        gameObject.SetActive(false); 
+        Invoke(nameof(RespawnObject), respawnTime); 
     }
 
     void RespawnObject()
     {
-        gameObject.SetActive(true); // Munculkan kembali objek
+        gameObject.SetActive(true); 
     }
 }

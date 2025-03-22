@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class DoorTransition : MonoBehaviour
 {
-    [SerializeField] private string nextSceneName = "Perjalanan"; // Nama scene tujuan
+    [SerializeField] private string nextSceneName = "Perjalanan"; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) // Pastikan Player memiliki Tag "Player"
+        if (collision.CompareTag("Player")) 
         {
             SceneManager.LoadScene(nextSceneName);
         }

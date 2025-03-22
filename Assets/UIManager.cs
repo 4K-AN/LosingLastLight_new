@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    public List<Image> itemSlots;  // Daftar slot UI untuk item
+    public List<Image> itemSlots;  
     private List<Sprite> collectedItems = new List<Sprite>();
 
     private void Awake()
@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
 
     public void AddItem(Sprite sprite)
     {
-        if (collectedItems.Count < itemSlots.Count) // Pastikan ada slot kosong
+        if (collectedItems.Count < itemSlots.Count) 
         {
             collectedItems.Add(sprite);
             UpdateInventoryUI();

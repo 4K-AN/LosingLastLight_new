@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "E:\\UNITY PROJECT\\Losing Last Light\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchPuzzleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TorchPuzzleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\ItemPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ItemPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SwordAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SwordPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\PlayerDeathHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerDeathHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\playerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\AttackPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AttackPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\DestroyAndRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\DestroyAndRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchPuzzleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TorchPuzzleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,48 +87,28 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\NPCDialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\playerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\DestroyAndRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\DestroyAndRespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\AttackPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AttackPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\PlayerDeathHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerDeathHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\ItemPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ItemPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SwordAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SwordPickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\EnemyAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EnemyAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UNITY PROJECT\\Losing Last Light\\Assets\\LightPuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,11 +138,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
               "Title": "PlayerDeathHandler.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\PlayerDeathHandler.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerDeathHandler.cs",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "GridEditorUtility.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@652a3a6feb4e\\Editor\\GridEditorUtility.cs",
@@ -168,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "DestroyAndRespawn.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\DestroyAndRespawn.cs",
               "RelativeDocumentMoniker": "Assets\\DestroyAndRespawn.cs",
@@ -181,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "NPCDialog.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\NPCDialog.cs",
               "RelativeDocumentMoniker": "Assets\\NPCDialog.cs",
@@ -189,11 +189,12 @@
               "RelativeToolTip": "Assets\\NPCDialog.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAQwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:38:09.009Z"
+              "WhenOpened": "2025-03-21T15:38:09.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "DungeonIntro.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\DungeonIntro.cs",
               "RelativeDocumentMoniker": "Assets\\DungeonIntro.cs",
@@ -201,11 +202,12 @@
               "RelativeToolTip": "Assets\\DungeonIntro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:31:38.935Z"
+              "WhenOpened": "2025-03-21T14:31:38.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "GameOverScreen.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\GameOverScreen.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverScreen.cs",
@@ -213,11 +215,12 @@
               "RelativeToolTip": "Assets\\GameOverScreen.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:00:36.843Z"
+              "WhenOpened": "2025-03-21T13:00:36.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\GameOverUI.cs",
@@ -225,11 +228,12 @@
               "RelativeToolTip": "Assets\\GameOverUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:00:15.964Z"
+              "WhenOpened": "2025-03-21T13:00:15.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Camera_Follow.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Camera_Follow.cs",
               "RelativeDocumentMoniker": "Assets\\Camera_Follow.cs",
@@ -237,11 +241,12 @@
               "RelativeToolTip": "Assets\\Camera_Follow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:56:56.881Z"
+              "WhenOpened": "2025-03-21T12:56:56.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "enemyBehaviour.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\enemyBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\enemyBehaviour.cs",
@@ -249,11 +254,12 @@
               "RelativeToolTip": "Assets\\enemyBehaviour.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:21:10.688Z"
+              "WhenOpened": "2025-03-21T11:21:10.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "OnTorch.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\OnTorch.cs",
               "RelativeDocumentMoniker": "Assets\\OnTorch.cs",
@@ -261,11 +267,12 @@
               "RelativeToolTip": "Assets\\OnTorch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:06:26.159Z"
+              "WhenOpened": "2025-03-21T10:06:26.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Movement.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Movement.cs",
@@ -273,11 +280,12 @@
               "RelativeToolTip": "Assets\\Movement.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:15:22.33Z"
+              "WhenOpened": "2025-03-21T01:15:22.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "TorchController.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchController.cs",
               "RelativeDocumentMoniker": "Assets\\TorchController.cs",
@@ -290,20 +298,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "TorchPuzzleSystem.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchPuzzleSystem.cs",
               "RelativeDocumentMoniker": "Assets\\TorchPuzzleSystem.cs",
               "ToolTip": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\TorchPuzzleSystem.cs",
               "RelativeToolTip": "Assets\\TorchPuzzleSystem.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAkwIgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T16:58:07.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Player.cs",
@@ -316,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "AttackPoint.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\AttackPoint.cs",
               "RelativeDocumentMoniker": "Assets\\AttackPoint.cs",
@@ -324,11 +332,12 @@
               "RelativeToolTip": "Assets\\AttackPoint.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:45:56.457Z"
+              "WhenOpened": "2025-03-20T13:45:56.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "playerMovement.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\playerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\playerMovement.cs",
@@ -336,11 +345,12 @@
               "RelativeToolTip": "Assets\\playerMovement.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:48:44.296Z"
+              "WhenOpened": "2025-03-20T09:48:44.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Enemy.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy.cs",
@@ -353,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "ItemPickup.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\ItemPickup.cs",
               "RelativeDocumentMoniker": "Assets\\ItemPickup.cs",
@@ -366,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "UIManager.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\UIManager.cs",
@@ -378,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 0,
               "Title": "ShadowShape2DProvider_ProperyDrawer.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs",
@@ -386,11 +396,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@435a61854c6c\\Editor\\2D\\Shadows\\ShadowProvider\\ShadowShape2DProvider_ProperyDrawer.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAwB0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:54:18.748Z"
+              "WhenOpened": "2025-03-21T01:54:18.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "SwordAttack.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordAttack.cs",
               "RelativeDocumentMoniker": "Assets\\SwordAttack.cs",
@@ -398,11 +409,12 @@
               "RelativeToolTip": "Assets\\SwordAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T04:07:56.931Z"
+              "WhenOpened": "2025-03-21T04:07:56.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "SwordPickup.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\SwordPickup.cs",
               "RelativeDocumentMoniker": "Assets\\SwordPickup.cs",
@@ -410,23 +422,23 @@
               "RelativeToolTip": "Assets\\SwordPickup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T04:12:52.15Z"
+              "WhenOpened": "2025-03-21T04:12:52.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 3,
               "Title": "Attack.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Attack.cs",
               "ToolTip": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Attack.cs",
               "RelativeToolTip": "Assets\\Attack.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAiwEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T09:37:17.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 4,
               "Title": "WizDemo1.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs",
               "RelativeDocumentMoniker": "Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs",
@@ -434,11 +446,12 @@
               "RelativeToolTip": "Assets\\Wizard - 2D Character\\Demo\\WizDemo1.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:09:16.112Z"
+              "WhenOpened": "2025-03-20T09:09:16.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "SimplePlayerController.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs",
@@ -446,11 +459,12 @@
               "RelativeToolTip": "Assets\\Wizard - 2D Character\\Demo\\SimplePlayerController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowF4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:07:36.431Z"
+              "WhenOpened": "2025-03-20T09:07:36.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 6,
               "Title": "Health.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Health.cs",
@@ -458,11 +472,12 @@
               "RelativeToolTip": "Assets\\Health.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:35:17.817Z"
+              "WhenOpened": "2025-03-19T16:35:17.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "E:\\UNITY PROJECT\\Losing Last Light\\Assets\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyAttack.cs",

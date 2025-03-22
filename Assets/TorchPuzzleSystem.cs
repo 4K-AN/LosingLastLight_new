@@ -39,7 +39,7 @@ public class TorchPuzzleSystem : MonoBehaviour
             }
             else
             {
-                Debug.LogError($"❌ Light2D belum di-assign untuk obor ID {torch.torchID}");
+                Debug.LogError($" Light2D belum di-assign untuk obor ID {torch.torchID}");
             }
         }
     }
@@ -48,14 +48,14 @@ public class TorchPuzzleSystem : MonoBehaviour
     {
         if (activationOrder.Contains(torchID))
         {
-            Debug.Log($"⚠ Obor {torchID} sudah dinyalakan, abaikan input.");
+            Debug.Log($" Obor {torchID} sudah dinyalakan, abaikan input.");
             return;
         }
 
         var targetTorch = torches.Find(t => t.torchID == torchID);
         if (targetTorch == null)
         {
-            Debug.LogError($"❌ Obor dengan ID {torchID} tidak ditemukan!");
+            Debug.LogError($" Obor dengan ID {torchID} tidak ditemukan!");
             return;
         }
 
@@ -63,11 +63,11 @@ public class TorchPuzzleSystem : MonoBehaviour
         if (targetTorch.torchLight != null)
         {
             targetTorch.torchLight.enabled = true;
-            Debug.Log($"✅ Obor {torchID} dinyalakan.");
+            Debug.Log($" Obor {torchID} dinyalakan.");
         }
 
         activationOrder.Add(torchID);
-        Debug.Log($"🔢 Urutan saat ini: {string.Join(", ", activationOrder)}");
+        Debug.Log($" Urutan saat ini: {string.Join(", ", activationOrder)}");
 
         CheckPuzzleProgress();
     }
@@ -97,7 +97,7 @@ public class TorchPuzzleSystem : MonoBehaviour
         }
         else
         {
-            Debug.Log($"❌ Urutan salah! Reset... ({string.Join(", ", activationOrder)})");
+            Debug.Log($" Urutan salah! Reset... ({string.Join(", ", activationOrder)})");
             StartCoroutine(ResetPuzzle());
         }
     }
@@ -106,7 +106,7 @@ public class TorchPuzzleSystem : MonoBehaviour
     {
         if (doors.Count == 0)
         {
-            Debug.LogError($"❌ Tidak ada pintu yang di-assign!");
+            Debug.LogError($" Tidak ada pintu yang di-assign!");
             return;
         }
 
@@ -115,30 +115,30 @@ public class TorchPuzzleSystem : MonoBehaviour
             if (door != null)
             {
                 door.SetActive(false);
-                Debug.Log($"🚪 Puzzle Solved! Pintu {door.name} terbuka.");
+                Debug.Log($" Puzzle Solved! Pintu {door.name} terbuka.");
             }
             else
             {
-                Debug.LogError("⚠ Ada pintu yang belum di-assign di list!");
+                Debug.LogError(" Ada pintu yang belum di-assign di list!");
             }
         }
     }
 
     IEnumerator ResetPuzzle()
     {
-        Debug.Log("🔄 Puzzle gagal! Reset dalam 1 detik...");
+        Debug.Log(" Puzzle gagal! Reset dalam 1 detik...");
 
-        yield return new WaitForSeconds(1f); // Tunggu sebentar untuk efek visual
+        yield return new WaitForSeconds(1f); 
 
-        // Matikan semua obor dan atur ulang statusnya
+        
         foreach (var torch in torches)
         {
-            torch.isActivated = false; // Penting: Set ulang status aktivasi
+            torch.isActivated = false;
             if (torch.torchLight != null)
             {
                 torch.torchLight.enabled = false;
             }
-            Debug.Log($"⚠ Obor {torch.torchID} di-reset.");
+            Debug.Log($" Obor {torch.torchID} di-reset.");
 
             if (torch.torchObject != null)
             {
@@ -150,9 +150,9 @@ public class TorchPuzzleSystem : MonoBehaviour
             }
         }
 
-        // Kosongkan urutan aktivasi
+        
         activationOrder.Clear();
 
-        Debug.Log("✅ Puzzle telah di-reset.");
+        Debug.Log(" Puzzle telah di-reset.");
     }
 }

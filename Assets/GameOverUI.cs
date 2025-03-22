@@ -5,13 +5,13 @@ public class GameOverUI : MonoBehaviour
 {
     public void RestartGame()
     {
-        Time.timeScale = 1f; // ✅ Pastikan waktu kembali normal
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // ✅ Restart Level
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
     }
 
     public void MainMenu()
     {
-        Time.timeScale = 1f; // ✅ Pastikan waktu kembali normal
-        SceneManager.LoadScene("MainMenu"); // ✅ Ganti dengan nama scene menu utama kamu
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("MainMenu"); 
     }
 }

@@ -9,12 +9,12 @@ public class DungeonIntro : MonoBehaviour
     {
         videoPlayer = GetComponent<VideoPlayer>();
 
-        // Mulai video dan hapus gameobject setelah durasi video selesai
-        Invoke("DestroyVideo", 10f); // Ganti 10f sesuai durasi video
+       
+        Invoke("DestroyVideo", 10f); 
     }
 
     void DestroyVideo()
     {
-        Destroy(gameObject); // Hapus Video Player setelah 10 detik
+        Destroy(gameObject); 
     }
 }

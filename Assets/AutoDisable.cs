@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AutoDisable : MonoBehaviour
 {
-    public float delayTime = 30f; // Waktu sebelum object dinonaktifkan
+    public float delayTime = 30f; 
 
     void Start()
     {

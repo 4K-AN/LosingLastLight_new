@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Wajib untuk mengganti scene
+using UnityEngine.SceneManagement; 
 
 public class SceneLoader : MonoBehaviour
 {

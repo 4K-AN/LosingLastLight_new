@@ -8,7 +8,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            UIManager.instance.AddItem(itemSprite); // Tambahkan ke inventory
+            UIManager.instance.AddItem(itemSprite); 
             Destroy(gameObject);
         }
     }

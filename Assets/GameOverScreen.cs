@@ -8,13 +8,13 @@ public class GameOverScreen : MonoBehaviour
     public void ShowGameOver()
     {
         gameOverUI.SetActive(true);
-        Time.timeScale = 0.1f;  // Jangan 0 agar UI masih responsif
+        Time.timeScale = 0.1f;  
     }
 
     public void RestartButton()
     {
-        Time.timeScale = 1f;  // Kembalikan ke normal
-        SceneManager.LoadScene("Dungeon"); // Ganti dengan nama scene game
+        Time.timeScale = 1f;  
+        SceneManager.LoadScene("Dungeon"); 
     }
 
     public void ExitButton()

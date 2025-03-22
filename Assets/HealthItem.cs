@@ -2,7 +2,7 @@
 
 public class HealthItem : MonoBehaviour
 {
-    public int healAmount = 20; // Jumlah healing
+    public int healAmount = 20; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,8 +12,8 @@ public class HealthItem : MonoBehaviour
 
             if (playerHealth != null)
             {
-                playerHealth.HealPlayer(healAmount); // Panggil fungsi yang benar
-                Destroy(gameObject); // Hancurkan item setelah digunakan
+                playerHealth.HealPlayer(healAmount);
+                Destroy(gameObject); 
             }
             else
             {

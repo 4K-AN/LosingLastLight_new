@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth; // Atur kesehatan awal
+        currentHealth = maxHealth;
     }
 
     public void HealPlayer(int amount)
@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += amount;
         if (currentHealth > maxHealth)
         {
-            currentHealth = maxHealth; // Jangan melebihi batas
+            currentHealth = maxHealth; 
         }
 
         Debug.Log("✅ Player disembuhkan! HP sekarang: " + currentHealth);
