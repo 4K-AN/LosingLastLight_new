@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HealthPotion : MonoBehaviour
+{
+    private Rigidbody2D rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) // Gunakan Trigger agar objek bisa hilang
+    {
+        GameObject whatHit = other.gameObject;
+        Health playerHealth = whatHit.GetComponent<Health>();
+
+        if (playerHealth != null)
+        {
+            playerHealth.Heal(20);
+            Destroy(gameObject); // Hancurkan objek setelah digunakan
+        }
+    }
+}
