@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
     guid: 14f9d49e6fb2a8e41908e814e840fbe8
+  - enabled: 1
+    path: Assets/Scenes/Keluar.unity
+    guid: 0c53f76aa6a41f343ad1f8e88a7d2355
   - enabled: 0
     path: Assets/Scenes/2.unity
     guid: d34bd85e5622f034e8edd88e2b59f332
