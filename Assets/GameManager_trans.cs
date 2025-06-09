@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DisableStartingSceneTransition()
     {
-        yield return new WaitForSeconds(5f); // Tunggu 5 detik sebelum menghilangkan transisi awal
+        yield return new WaitForSeconds(5f); 
         startingSceneTransition.SetActive(false);
     }
 
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         if (endingSceneTransition != null)
         {
             endingSceneTransition.SetActive(true);
-            yield return new WaitForSeconds(2f); // Durasi transisi keluar sebelum pindah scene
+            yield return new WaitForSeconds(2f); 
         }
 
         SceneManager.LoadScene(sceneIndex);
